@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #83d6ef;
+}
+.menu{
+    margin-top: 30px;
+}
+.score{
+    margin-left: 15%;
+}
+.times{
+    margin-left: 58%;
+}
+.result{
+    color: white;
+    font-size: 30px;
+    font-weight:bold;
+}
+.equal{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: black;
+}
+
+.btnstart{
+    margin-top: 30px;
+    margin-left: 40%;
+    width: 20%;
+    height: 40px;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    
+}
+.btnstop{
+    width: 20%;
+    height: 40px;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    
+}
+.stop{
+    text-align: center;
+    margin-top: 30px;
+}
+.activestart{
+    background-color:rgb(122,201,122);
+    border-color: rgb(122,201,122);
+}
+.inactivestart{
+    background-color: grey;
+}
+.activestop{
+    background-color:red;
+    border-color: red;
+}
+.inactivestop{
+    background-color: grey;
+}
+.totalcard{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn{
+    width: 15%;
+    height: 200px;
+    background-color: #f57676;
+    margin: 10px;
+    border-radius: 12px;
+    border-color: #f57676;
+}
+.changebtn{
+    width: 15%;
+    height: 200px;
+    background-color: #DDA0DD;
+    border-color: #DDA0DD;
+    color: white;
+    font-weight: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 40px;
+}
+.q1{
+    font-size: 30px;
+    font-weight: 15px ;
+}
+.list{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 50px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Game2.css" class="css">
+    <title>Game2</title>
+</head>
+<body>
+    <div class="header">
+        <div class="menu">
+            <span class="score result">Score:</span>
+            <span id="score" class="result" ></span>
+            
+            <span class="times result">Times:</span>
+            <span id="times" class="result" ></span>   
+        </div>
+    </div>
+    <div class="body">
+        <div class="start">
+            <button id="btnstart" class="btnstart activestart" onclick="start()">Start</button>
+        </div>
+        <div class="equal">
+            <span id="q1" class="q1"></span>
+            <!-- <span class="equal">=></span> -->
+        </div>
+        <div class="totalcard">
+            <button id="card1" class="btn" onclick="checkanswer1()"></button>
+            <button id="card2" class="btn" onclick="checkanswer2()"></button>
+            <button id="card3" class="btn" onclick="checkanswer3()"></button>
+        </div>
+        <div class="stop">
+            <button id="btnstop" class="btnstop activestop" disabled onclick="stop()">Stop</button>
+        </div>
+        <h3 class="list" id="history"></h3>
+        <p id="list" class="list"></p>
+    </div>
+        <script src="Game2.js"></script>
+</body>
+</html>
+    
